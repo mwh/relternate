@@ -1,0 +1,29 @@
+{
+
+    "manifest_version": 2,
+    "name": "Relternate",
+    "version": "1.0",
+    "author": "Michael Homer",
+
+    "description": "Lists alternate versions of a page, and other <link rel> entries",
+
+    "icons": {
+        "48": "relternate.png"
+    },
+
+    "permissions": [
+        "activeTab",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "scripts": ["relternate-bg.js"]
+    },
+
+    "page_action": {
+        "default_icon": "relternate.png",
+        "default_title": "Relternate",
+        "default_popup": "relternate.html"
+    }
+
+}
